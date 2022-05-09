@@ -5,7 +5,9 @@
         console.log(window.innerHeight, 'window.innerHeight');
         document.getElementById(
           "chatBoxMainContainer"
-        ).style.height = `${frameHeight}px`;
+        ).style.height = `330px`;
+
+        // .style.height = `${frameHeight}px`;
       };
       document.getElementById("player").style.width = "0px";
       document.querySelector("#chatContainer").insertAdjacentHTML(
