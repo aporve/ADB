@@ -6,7 +6,7 @@
         console.log(window.innerHeight, 'window.innerHeight');
         document.getElementById(
           "chatBoxMainContainer"
-        ).style.height = `${frameHeight}px`;
+        ).style.height = `${frameHeight}px !important`;
 
         // .style.height = `${frameHeight}px`;
       };
