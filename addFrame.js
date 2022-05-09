@@ -10,8 +10,8 @@
 
         // .style.height = `${frameHeight}px`;
       };
-      document.getElementById("chatBoxMain").style.margin = "0 0 20px 0";
-      document.getElementById("chatOptions").style.margin = "0 0 20px 0";
+    //   document.getElementById("chatBoxMain").style.margin = "0 0 20px 0";
+    //   document.getElementById("chatOptions").style.margin = "0 0 20px 0";
       document.getElementById("player").style.width = "0px";
       document.querySelector("#chatContainer").insertAdjacentHTML(
         "afterbegin",
