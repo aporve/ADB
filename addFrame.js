@@ -2,6 +2,7 @@
     try {
       window.onresize = function (event) {
         var frameHeight = window.innerHeight - 104 - 40;
+        console.log(window.innerHeight, 'window.innerHeight');
         document.getElementById(
           "chatBoxMainContainer"
         ).style.height = `${frameHeight}px`;
