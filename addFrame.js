@@ -10,8 +10,13 @@
 
         // .style.height = `${frameHeight}px`;
       };
+      var frameHeight = window.innerHeight - 104 - 40;
+      console.log(window.innerHeight, 'window.innerHeight');
+      document.getElementById(
+        "chatBoxMainContainer"
+      ).style.height = `${frameHeight}px`;
     //   document.getElementById("chatBoxMain").style.margin = "0 0 20px 0";
-    //   document.getElementById("chatOptions").style.margin = "0 0 20px 0";
+      document.getElementById("chatOptions").style.margin = "0 0 20px 0";
       document.getElementById("player").style.width = "0px";
       document.querySelector("#chatContainer").insertAdjacentHTML(
         "afterbegin",
