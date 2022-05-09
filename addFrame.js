@@ -1,4 +1,5 @@
 (function addFrames() {
+    console.log('In add frame');
     try {
       window.onresize = function (event) {
         var frameHeight = window.innerHeight - 104 - 40;
